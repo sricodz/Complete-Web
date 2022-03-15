@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+	text-align:center;
+}
+#error{
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+td{
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+#btn{
+    padding: 7px;
+    background-color: rgb(14, 27, 206);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+
+}
+#btn:hover{
+    background-color: rgb(47, 218, 84);
+    color: black;
+}
